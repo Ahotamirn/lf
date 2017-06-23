@@ -1,0 +1,36 @@
+/**
+  Add any styles you need here
+**/
+
+.select-wrapper {
+    border: 2px solid rgb(6, 0, 146);
+    padding: 7px;
+    outline: 0;
+    background: url(caret.png) no-repeat right rgb(172, 216, 231);
+    background-size: 30px;
+}
+
+.select-wrapper select {
+    border: 0;
+    width: 100%;
+    outline: 0;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-wrapper select::-ms-expand {
+    display: none;
+}
+
+
+/**
+ do NOT touch this code
+**/
+.wrapper {
+    width: 250px;
+    margin: 2em auto;
+}
+img {
+    max-width: 100%;
+}
